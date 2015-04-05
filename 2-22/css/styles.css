@@ -1,0 +1,147 @@
+body {
+	min-height: 2000px;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+header {
+	height: 100px;
+	background-color: #44036F;
+	box-shadow: none;
+	transition: box-shadow 1s;
+}
+
+header:hover {
+	box-shadow: 6px 6px 5px #000000;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	float: left;
+	margin-bottom: 0px;
+	font-weight: 100;
+	color: #FFCAA0;
+	margin-left: 25%;
+	text-shadow: none;
+	transition: text-shadow 1s;
+}
+
+h1:hover{
+	text-shadow: 8px 8px 5px #000000;
+}
+
+nav {
+	float: right;
+	width: 400px;
+	margin-top: 1%;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav a {
+	font-family: 'Kaushan Script', cursive;
+	border-radius: 100%;
+	background-color: #000000;
+	color: #FFCAA0;
+	padding: 8%;
+	text-decoration: none;
+	box-shadow: 6px 6px 20px #000000;
+	font-size: 150%;
+	margin: 0 10px;
+	left: 0px;
+	top: 0px;
+	transition: box-shadow 0.25s, left 0.5s, top 0.5s;
+}
+
+nav a:hover {
+	box-shadow: none;
+	left: 6px;
+	top: 6px;
+	position: relative;
+}
+
+aside a {
+	font-family: 'Fredericka the Great', cursive;
+	text-decoration: none;
+	background-color: #E6D1F2;
+	display: block;
+	transition: box-shadow 1.5s, color 1.5s, background-color 1s, left 1.5s;
+	padding: 0px 5px 3px 5px;
+	left: 0px;
+}
+
+aside a:link, aside a:visited {
+	color: #000000;
+}
+
+aside a:hover {
+	background-color: #44036F;
+	color: #FFCAA0;
+	position: relative;
+	left: 20px;
+	box-shadow: 6px 6px 5px #000000;
+}
+
+aside {
+	float: left;
+	position: fixed;
+}
+
+aside ul li {
+	list-style-type: none;
+	font-size: 175%;
+	text-align: center;
+}
+
+aside ul {
+	padding-left: 0px;
+}
+
+main {
+	min-height: 392px;
+	margin-left: 30%;
+}
+
+h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: 100;
+}
+
+figure {
+	margin: 0 auto;
+	width: 500px;
+}
+
+main img {
+	width: 500px;
+	float: right;
+	box-shadow: none;
+	transition: box-shadow 1s;
+}
+
+main img:hover{
+	box-shadow: 10px 10px 10px #000000;
+}
+
+footer img {
+	height: 200px;
+	float: right;
+	box-shadow: none;
+	transition: box-shadow 1s;
+}
+
+footer img:hover {
+	box-shadow: 10px 10px 10px #000000;
+}
+
+footer > p {
+	clear: both;
+	text-align: center;
+	margin-top: 5%;
+}
+
+footer {
+	clear: both;
+}
